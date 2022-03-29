@@ -263,10 +263,10 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
 }
-.navbar-mobile .dropdown ul {
+.navbar-mobile {
   position: static;
   display: none;
-  margin: 10px 20px;
+  margin: 10% 20;
   padding: 10px 0;
   z-index: 99;
   opacity: 1;
@@ -274,16 +274,16 @@ h1, h2, h3, h4, h5, h6 {
   background: #fff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
 }
-.navbar-mobile .dropdown ul li {
+.navbar-mobile {
   min-width: 200px;
 }
-.navbar-mobile .dropdown ul a {
+.navbar-mobile  {
   padding: 10px 20px;
 }
-.navbar-mobile .dropdown ul a i {
+.navbar-mobile {
   font-size: 12px;
 }
-.navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
+.navbar-mobile  .navbar-mobile .active:hover, .navbar-mobile > a {
   color: #2487ce;
 }
 .navbar-mobile .dropdown > .dropdown-active {
@@ -427,6 +427,7 @@ section {
 .section-title {
   text-align: center;
   padding-bottom: 30px;
+  margin-bottom: 5%;
 }
 .section-title h2 {
   font-size: 32px;
@@ -563,6 +564,12 @@ section {
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
+.member{
+ margin-left: 50px;
+ margin-right: 50px;
+ /* margin-top: 20px; */
+}
+
 .team .member {
   margin-bottom: 20px;
   overflow: hidden;
@@ -570,6 +577,7 @@ section {
   border-radius: 4px;
   background: #fff;
   box-shadow: 0px 2px 15px rgba(18, 66, 101, 0.08);
+
 }
 .team .member .member-img {
   position: relative;
@@ -627,6 +635,7 @@ section {
 .team .member:hover .social {
   opacity: 1;
 }
+
 
 
 
@@ -887,10 +896,119 @@ section {
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
+#clients .justify-content-center.img.img-fluid{
+border-radius: 100%;
+
+}
 
 
+.container {
+  margin-top: 20px;
+}
 
+/* Carousel Styles */
+.carousel-indicators .active {
+  background-color: #2980b9;
+}
 
+.carousel-inner img {
+  width: 100%;
+  max-height: 460px
+}
+
+.carousel-control {
+  width: 0;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+opacity: 1;
+filter: alpha(opacity=100);
+background-image: none;
+background-repeat: no-repeat;
+text-shadow: none;
+}
+
+.carousel-control.left span {
+padding: 15px;
+}
+
+.carousel-control.right span {
+padding: 15px;
+}
+
+.carousel-control .glyphicon-chevron-left, 
+.carousel-control .glyphicon-chevron-right, 
+.carousel-control .icon-prev, 
+.carousel-control .icon-next {
+position: absolute;
+top: 45%;
+z-index: 5;
+display: inline-block;
+}
+
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .icon-prev {
+left: 0;
+}
+
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .icon-next {
+right: 0;
+}
+
+.carousel-control.left span,
+.carousel-control.right span {
+background-color: #000;
+}
+
+.carousel-control.left span:hover,
+.carousel-control.right span:hover {
+opacity: .7;
+filter: alpha(opacity=70);
+}
+
+/* Carousel Header Styles */
+.header-text {
+  position: absolute;
+  top: 20%;
+  left: 1.8%;
+  right: auto;
+  width: 96.66666666666666%;
+  color: #fff;
+}
+
+.header-text h2 {
+  font-size: 40px;
+}
+
+.header-text h2 span {
+  background-color: #2980b9;
+padding: 10px;
+}
+
+.header-text h3 span {
+background-color: #000;
+padding: 15px;
+}
+
+.btn-min-block {
+  min-width: 170px;
+  line-height: 26px;
+}
+
+.btn-theme {
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid #fff;
+  margin-right: 15px;
+}
+
+.btn-theme:hover {
+  color: #000;
+  background-color: #fff;
+  border-color: #fff;
+}
 
 
 
